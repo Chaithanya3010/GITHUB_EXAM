@@ -1,0 +1,75 @@
+2-stash 
+
+create one file in main 
+git add 
+git merge 
+now create new branch feature-branch
+create afile
+git add 
+commit 
+
+now checkout to main
+
+git merge feature-branch
+ git checkout to feature- branch
+ 
+now do little chnage in txt file of vs code 
+git stash
+
+now checkout to main 
+git stash apply
+
+
+
+
+6- 
+create 5 file with single personal commit and push each files individually
+
+git show <hash code>
+git log --author="chaithanya" --since="2024-01-01" --until="2024-12-31" 
+
+for last five commit - 
+git log -n 5
+
+
+UNDO CHNAGES 
+git revert <COMMIT ID>
+
+
+
+
+
+Here are some basic Git commands that are commonly used:
+
+
+4. **git commit -m "message"**: Commits the changes in the staging area to the local repository with a descriptive message.
+
+5. **git status**: Displays the current status of the repository, including tracked/untracked files and changes to be committed.
+
+6. **git push**: Uploads local repository content to a remote repository.
+
+7. **git pull**: Fetches and merges changes from the remote repository to your local repository.
+
+11. **git merge [branch_name]**: Merges the changes from the specified branch into the current branch.
+
+12. **git remote -v: Lists all remote repositories linked to your local repository.
+
+13. **git log: history of commits.
+
+14. **git diff**: Shows the differences between the working directory, staging area, and repository.
+
+These are options commonly used with certain Git commands:
+
+ `-m`: Stands for "message". It's used with `git commit` to specify a commit message inline with the command, like `git commit -m "Your commit message here"`.
+  
+`-v`: Stands for "verbose". It's used with certain commands like `git diff` to provide more detailed output.
+  
+- `-a`: Stands for "all". It's used with `git commit` to automatically stage files that have been modified or deleted before committing.
+  
+- `-b`: Stands for "branch". It's used with `git checkout` or `git branch` to specify creating or switching to a new branch. For example, `git checkout -b new_branch_name`.
+
+
+
+
+
+
