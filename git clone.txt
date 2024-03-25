@@ -1,0 +1,72 @@
+https://github.com/nikhilkumar1104
+https://github.com/Chaithanya3010
+
+3 -rebase 
+
+git clone
+cd <repo>
+create 3 files with one commit 
+git push 
+delte one file from git repo 
+git log
+git fetch 
+git rebase 
+git log
+
+
+4- Tags 
+
+git clone
+cd <repo>
+create a file
+add
+commit 
+git tag v1.0
+git log 
+git push  origin v1.0
+git push
+
+
+
+5- Cherry pick 
+
+git clone
+cd <repo>
+
+create one aa.py file 
+git add a.py 
+git commit -m "add"
+git push
+
+now create new branch
+git switch fetu
+git add a.py 
+git commit -m "add div
+again do the changes in file 
+git log
+
+git switch main
+git cherry-pick
+
+
+
+
+triangle pattern 
+
+def print_full_triangle(n):
+    for i in range(1, n + 1):
+        print(" " * (n - i) + "*" * (2 * i - 1))
+
+print_full_triangle(10)
+
+
+         *
+        ***
+       *****
+      *******
+     *********
+    ***********
+   *************
+  ***************
+ *****************
+*******************
